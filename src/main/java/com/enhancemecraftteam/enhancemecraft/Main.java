@@ -26,29 +26,37 @@ import static net.minecraftforge.common.BiomeManager.addVillageBiome;
 @Mod(name="enhancemecraftmod", modid="enhancemecraft", version="indev")
 public class main
 {
+      
+      // Blocks
+      
+      // Items
+      
+      // Biomes
+      
+      // Entities
+      
+      @Mod.EventHandler
+      public void preInit(FMLPreInitializationEvent e)
+      {
+
+      
+
+      } 
 
       @Mod.EventHandler
-    public void preInit(FMLPreInitializationEvent e)
-    {
+      public void init(FMLInitializationEvent e)
+      {
 
       
 
-    }
-
-    @Mod.EventHandler
-    public void init(FMLInitializationEvent e)
-    {
-
-      
-
-    }
+      }
   
-    @Mod.EventHandler
-    public void postInit(FMLPostInitializationEvent e)
-    {
+      @Mod.EventHandler
+      public void postInit(FMLPostInitializationEvent e)
+      {
     
       
     
-    }
+      }
 
 }
