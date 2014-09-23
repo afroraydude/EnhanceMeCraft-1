@@ -1,0 +1,16 @@
+[
+{
+"modid": "enhancemecraft",
+"name": "enhancemecraftmod",
+"description": "A mod that adds stuff.",
+"version": "indev",
+"mcversion": "1.7.10",
+"url": "http://github.com/enhancemecraftteam/enhancemecraft",
+"updateUrl": "",
+"authors": "enhancemecraftteam",
+"credits": "We....we, Uh....we Made This",
+"logoFile": "",
+"screenshots": [],
+"dependencies": [mod_MinecraftForge]
+}
+]

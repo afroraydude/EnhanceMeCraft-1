@@ -24,7 +24,7 @@ import static net.minecraftforge.common.BiomeManager.addVillageBiome;
  * For minecraft version 1.7.10 and Forge build 1208 or higher
  */
 @Mod(name="enhancemecraftmod", modid="enhancemecraft", version="indev")
-public class main
+public class Main
 {
       
       // Blocks
