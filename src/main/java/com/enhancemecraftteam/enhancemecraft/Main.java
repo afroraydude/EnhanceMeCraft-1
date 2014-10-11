@@ -16,6 +16,7 @@ import net.minecraftforge.common.BiomeManager;
 
 import javax.sound.sampled.CompoundControl;
 
+import static cpw.mods.fml.common.Mod.EventHandler;
 import static net.minecraftforge.common.BiomeDictionary.registerBiomeType;
 import static net.minecraftforge.common.BiomeManager.BiomeEntry;
 import static net.minecraftforge.common.BiomeManager.addSpawnBiome;
@@ -28,38 +29,25 @@ import static net.minecraftforge.common.BiomeManager.addVillageBiome;
 @Mod(name="enhance", modid="enhance", version="indev")
 public class Main
 {
-      // world gen
-      
-      // Blocks
-      
-      // Items
-      
-      // Biomes
-      
-      // Entities
-      
-      @Mod.EventHandler
-      public void preInit(FMLPreInitializationEvent e)
-      {
+    // Blocks
 
-      
+    // Items
 
-      } 
+    @EventHandler
+    public void preInit(FMLPreInitializationEvent e)
+    {
 
-      @Mod.EventHandler
-      public void init(FMLInitializationEvent e)
-      {
+    }
 
-      
+    @EventHandler
+    public void Init(FMLInitializationEvent e)
+    {
 
-      }
-  
-      @Mod.EventHandler
-      public void postInit(FMLPostInitializationEvent e)
-      {
-    
-      
-    
-      }
+    }
 
+    @EventHandler
+    public void postInit(FMLPostInitializationEvent e)
+    {
+
+    }
 }
