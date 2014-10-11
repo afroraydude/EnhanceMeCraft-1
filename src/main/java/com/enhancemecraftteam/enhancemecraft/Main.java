@@ -1,3 +1,5 @@
+package com.enhancemecraftteam.enhancemecraft;
+
 import cpw.mods.fml.common.Mod;
 import cpw.mods.fml.common.event.FMLInitializationEvent;
 import cpw.mods.fml.common.event.FMLPostInitializationEvent;
