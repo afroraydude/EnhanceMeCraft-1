@@ -1,5 +1,7 @@
 package com.enhancemecraftteam.enhancemecraft;
 
+import com.enhancemecraftteam.enhancemecraft.block.MedBlock;
+import com.enhancemecraftteam.enhancemecraft.item.MedItem;
 import cpw.mods.fml.common.Mod;
 import cpw.mods.fml.common.event.FMLInitializationEvent;
 import cpw.mods.fml.common.event.FMLPostInitializationEvent;
@@ -29,6 +31,8 @@ import static net.minecraftforge.common.BiomeManager.addVillageBiome;
 @Mod(name="enhance", modid="enhance", version="indev")
 public class Main
 {
+    public static String modid = "enhance";
+
     // Blocks
 
     // Items
@@ -36,7 +40,8 @@ public class Main
     @EventHandler
     public void preInit(FMLPreInitializationEvent e)
     {
-
+        MedBlock.init();
+        MedItem.init();
     }
 
     @EventHandler
