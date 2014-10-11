@@ -25,9 +25,10 @@ import static net.minecraftforge.common.BiomeManager.addVillageBiome;
  * Created by EnhanceMeCraftTeam.
  * For minecraft version 1.7.10 and Forge build 1208 or higher
  */
-@Mod(name="enhancemecraftmod", modid="enhancemecraft", version="indev")
+@Mod(name="enhance", modid="enhance", version="indev")
 public class Main
 {
+      // world gen
       
       // Blocks
       
