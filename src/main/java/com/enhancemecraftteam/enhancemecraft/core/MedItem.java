@@ -1,6 +1,7 @@
-package com.enhancemecraftteam.enhancemecraft.item;
+package com.enhancemecraftteam.enhancemecraft.core;
 
 // imports
+import com.enhancemecraftteam.enhancemecraft.item.TestItem;
 import cpw.mods.fml.common.registry.GameRegistry;
 import net.minecraft.item.Item;
 

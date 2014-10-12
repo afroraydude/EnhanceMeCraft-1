@@ -1,4 +1,4 @@
-package com.enhancemecraftteam.enhancemecraft.weapon;
+package com.enhancemecraftteam.enhancemecraft.core;
 
 /**
  * Created by afroraydude.
