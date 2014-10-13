@@ -1,9 +1,5 @@
 *.class
-
 *.jar
-*.war
-*.ear
-
 *.txt
 *.bat
 *.iml
@@ -13,3 +9,6 @@
 .gradle/
 gradle/
 eclipse/
+out/
+build/
+minecraft/
